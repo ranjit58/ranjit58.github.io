@@ -1,5 +1,51 @@
 ---
-title: "About Me"
+title: "Time to get sophisticated"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
 ---
+There are a lot of ways to get sophisticated here, and we're only covering a few possibilites here. See [RStudio's R Markdown lessons](http://rmarkdown.rstudio.com/lesson-1.html) for other R Markdown capabilities. Plus, R Markdown can render styling from Cascading Style Sheets (CSS) and Hyper Text Markup Language (HTML), which is what non-R Markdown websites use.  
 
-Why I am awesome. 
+So, Googling what you want to do and trying it in your R Markdown files is a good way to learn. Disclaimer: that's how I've learned the following, so there are most definitely better and more elegant ways to do this. But here are some ideas of what you may want to do with your website. 
+
+----
+
+## R Markdown options 
+
+These are options that you can do from the Front Matter. 
+
+<br>
+
+### Table of Contents
+
+Note that on this page: 
+
+1. there is a Table of Contents (TOC) there on the left, and 
+1. it is floating (i.e. it follows you as you scroll down and expands/collapses nicely as you click)
+1. This is all done in the front matter:  
+```
+    output:  
+      html_document:  
+        toc: true
+```  
+<!---also note that my numbering in this list renders nicely--->
+
+<br>
+
+### Themes
+
+We can change the website's theme in `_site.yml`. Explore options here: <http://rmarkdown.rstudio.com/html_document_format.html#appearance_and_style>:
+
+>Valid themes include "default", "cerulean", "journal", "flatly", "readable", "spacelab",  "united", "cosmo", "lumen", "paper", "sandstone", "simplex", and "yeti". 
+
+
+
+----
+
+## Simple styling
+
+
+### images
