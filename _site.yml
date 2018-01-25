@@ -6,4 +6,4 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "About Me"
-href: about.html
+      href: about.html
