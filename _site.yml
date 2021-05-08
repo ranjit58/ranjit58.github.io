@@ -6,6 +6,6 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Test"
-      href: ../R-snippets/test.html
+      href: test.html
     - text: "About Me"
       href: about.html
